@@ -10,6 +10,9 @@
 * It should be a String.
 **/
 
+var firstName = "Mark";
+var lastName = "Demesillo";
+var birthPlace = "Philippines";
 
 
 /**
@@ -22,7 +25,9 @@
 * Their values should be a Number
 **/
 
-
+var favoriteNumber = 6;
+var currentYear = 2016;
+var thatOnePrinceSong = 1;
 
 /**
 * #3
@@ -33,7 +38,9 @@
 *
 * Their values should be a Boolean
 **/
-
+var isDaytime = true;
+var isLeftHanded = false;
+var inHawaii = true;
 
 
 /**
@@ -45,7 +52,8 @@
 * Their values should be a Null value
 **/
 
-
+var enrolledAtDevLeague = null;
+var completedFridayPrep = null;
 
 /**
 * #5a
@@ -56,7 +64,7 @@
 * which can be found along the west coast of The United States.
 **/
 
-
+var westCoast ['California', 'Oregon', 'Washington'];
 
 /**
 * #5b
@@ -67,7 +75,7 @@
 * Have at least ten even values in this array.
 **/
 
-
+var evenNumbers [2, 4, 6, 8, 10, 12, 14, 18, 20, 22];
 
 /**
 * #6a Arithmetic
@@ -80,7 +88,9 @@
 * Extend this behavior to include subtraction, multiplication and division.
 */
 
+var sumOfNumbers = 10;
 
+sumOfNumbers(2 + 3 + 5);
 
 
 /**
@@ -99,7 +109,9 @@
 *   operator(==) vs triple comparison operator(===).
 */
 
+var isEqual = true;
 
+isEqual("Tacocat" = "tacocat");
 
 /**
 * #6c Assignments
@@ -116,8 +128,7 @@
 *   it can only test that you declared the variable by giving it the right name.
 */
 
-
-
+var generalContainer = [true , 2, "Mork" , 43 , "false?"];
 
 /**
 * #7a
@@ -131,7 +142,15 @@
 * Store the return value to a variable named `jumpResult`
 **/
 
+function jump(height) {
+	console.log("You jumped " + height +" feet high!");
+}
 
+jump (9);
+
+var jumpResult() {
+	return console.log("You jumped " + height +" feet high!");
+}
 
 /**
 * #7b
@@ -143,3 +162,8 @@
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
 
+function cook( ingredient1, ingredient2, recipeName) {
+	return console.log(ingredient1 + " and " ingredient2 + " make a " + recipeName);
+}
+
+cook ("Tomatoes", "Cheese", "Pizza");
